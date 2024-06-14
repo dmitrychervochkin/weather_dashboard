@@ -1,0 +1,28 @@
+{
+	"users": [
+		{
+			"id": "1",
+			"login": "dimas",
+			"password": "qweqwe",
+			"img_url": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663110850_6-mykaleidoscope-ru-p-spokoinii-chelovek-vkontakte-8.jpg"
+		},
+		{
+			"id": "2",
+			"login": "qweqwe",
+			"password": "qweqwe"
+		}
+	],
+	"sessions": [
+		{
+			"id": "a728",
+			"hash": "0.54535743674279402171123365405946969985961914062500",
+			"user": {
+				"id": "1",
+				"login": "dimas",
+				"password": "qweqwe",
+				"imgUrl": "https://mykaleidoscope.ru/x/uploads/posts/2022-09/1663110850_6-mykaleidoscope-ru-p-spokoinii-chelovek-vkontakte-8.jpg"
+			}
+		}
+	],
+	"cities": []
+}

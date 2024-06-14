@@ -1,0 +1,17 @@
+export const transformCity = (dbWeather) => ({
+	id: dbWeather.id,
+	name: dbWeather.name,
+	feelsLike: dbWeather.feels_like,
+	grndLevel: dbWeather.grnd_level,
+	humidity: dbWeather.humidity,
+	temp: dbWeather.temp,
+	tempMax: dbWeather.temp_max,
+	tempMin: dbWeather.temp_min,
+	country: dbWeather.country,
+	sunrise: dbWeather.sunrise,
+	sunset: dbWeather.sunset,
+	wind: dbWeather.wind,
+	timezone: dbWeather.timezone,
+	weather: dbWeather.weather,
+	isFavorite: dbWeather.isFavorite,
+});

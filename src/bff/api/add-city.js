@@ -1,0 +1,37 @@
+export const addCity = ({
+	name,
+	feelsLike,
+	grndLevel,
+	humidity,
+	temp,
+	tempMax,
+	tempMin,
+	country,
+	sunrise,
+	sunset,
+	timezone,
+	wind,
+	weather,
+}) =>
+	fetch('http://localhost:3005/cities', {
+		method: 'POST',
+		headers: {
+			'Content-Type': 'application/json;charset=utf-8',
+		},
+		body: JSON.stringify({
+			name,
+			feels_like: feelsLike,
+			grnd_level: grndLevel,
+			humidity,
+			temp,
+			temp_max: tempMax,
+			temp_min: tempMin,
+			country,
+			sunrise,
+			sunset,
+			timezone,
+			wind,
+			weather,
+			isFavorite: false,
+		}),
+	}).then((createPost) => createPost.json());
